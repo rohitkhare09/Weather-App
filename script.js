@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cityHide = document.querySelector('.city-hide');
 
     search.addEventListener('click', () => {
-        const APIKey = '0de3884252c7acc5e7c5edd9961a6d8e'; 
+        const APIKey = 'YOUR API KEY'; 
         const city = document.querySelector('.search-box input').value; 
 
         if (city === '') return; 
